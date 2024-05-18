@@ -1,7 +1,7 @@
 // src/router/index.jsx
 import { createBrowserRouter } from 'react-router-dom';
 import Home from '../Pages/Home';
-import Pharmacien from './Pages/pharmacien';
+import Pharmacien from '../Pages/Pharmacien';
 import NotFound from '../Pages/NotFound';
 import Login from '../Pages/Login';
 import Layout from '../Layouts/Layout';
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         element: <Paiment />,
       },
       {
-        path: 'pharmacien',
+        path: 'Pharmacien',
         element: <Pharmacien/>,
       },
       {
